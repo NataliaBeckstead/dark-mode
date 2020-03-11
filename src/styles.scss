@@ -250,4 +250,25 @@ text-align: left;
     background-color: #1F2022;
     border: none;
   }
+
+  .recharts-text {
+    fill: lightgray;
+  }
+
+  .recharts-xAxis {
+    stroke: lightgray;
+  }
+
+  .recharts-yAxis {
+    stroke: lightgray;
+  }
+  
+  .recharts-line-curve {
+    stroke: orange;
+  }
+  .recharts-dot {
+    stroke: orange;
+  }
+
 }
+
