@@ -145,11 +145,23 @@ h1 {
 }
 
 h2 {
-  font-size: 1.8rem;
+  font-size: 2.4rem;
+}
+
+h3 {
+  font-size: 2.1rem;
+  margin: 0.5rem;
+  margin-top: 2rem;
+  color: #8884d8;
 }
 
 h4 {
   font-size: 1.4rem;
+}
+
+p {
+  font-size: 1.8rem;
+  margin: 0.5rem;
 }
 
 img {
@@ -242,12 +254,56 @@ text-align: left;
   width: 50px;
 }
 
+.link {
+  text-decoration: none;
+}
+
+
+.about {
+  width: 100%;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: flex-start;
+  text-align: left;
+  h2 {
+    color: #514e80;
+  }
+}
+
+
 .dark-mode {
   color: #fff;
   background-color: #313843;
+
+  h2, h1, h3 {
+    color: orange;
+  }
 
   .navbar {
     background-color: #1F2022;
     border: none;
   }
+
+  .recharts-text {
+    fill: lightgray;
+  }
+
+  .recharts-xAxis {
+    stroke: lightgray;
+  }
+
+  .recharts-yAxis {
+    stroke: lightgray;
+  }
+  
+  .recharts-line-curve {
+    stroke: orange;
+  }
+  .recharts-dot {
+    stroke: orange;
+  }
+
 }
+
