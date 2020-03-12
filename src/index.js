@@ -6,6 +6,7 @@ import { Route } from "react-router-dom";
 
 import Charts from "./components/Charts";
 import Navbar from "./components/Navbar";
+import About from "./components/About";
 
 import "./styles.scss";
 
@@ -28,6 +29,9 @@ const App = () => {
       <Navbar />
       <Route exact path='/'>
         <Charts coinData={coinData} />
+      </Route>
+      <Route path='/about'>
+        <About />
       </Route>
       
     </div>
